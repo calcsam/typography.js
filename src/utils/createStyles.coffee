@@ -24,7 +24,7 @@ module.exports = (vr, options) ->
   body {
     color: #{gray(options.bodyGray)};
     font-family: #{options.bodyFontFamily};
-    padding: 0 #{vr.rhythm(1)};
+    font-weight: #{options.bodyWeight};
     word-wrap: break-word;
   }
 
@@ -57,6 +57,11 @@ module.exports = (vr, options) ->
 
   blockquote {
     margin: #{vr.rhythm(1)} #{vr.rhythm(2.5)};
+  }
+
+  b,
+  strong {
+    font-weight: #{options.boldWeight}
   }
 
   hr {
