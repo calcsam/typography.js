@@ -1,14 +1,14 @@
 {
   "name": "typography",
   "description": "Opinionated toolkit for building websites with beautiful typography",
-  "version": "0.0.12",
+  "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "bugs": {
     "url": "https://github.com/KyleAMathews/react-typography/issues"
   },
   "dependencies": {
     "compass-vertical-rhythm": "^1.2.0",
-    "gray-percentage": "^1.0.2",
+    "gray-percentage": "^1.1.0",
     "is-array": "^1.0.1",
     "is-string": "^1.0.4",
     "modularscale": "^1.0.2",
