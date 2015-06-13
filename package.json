@@ -12,7 +12,8 @@
     "gray-percentage": "^1.1.2",
     "is-array": "^1.0.1",
     "is-string": "^1.0.4",
-    "modularscale": "^1.0.2"
+    "modularscale": "^1.0.2",
+    "react-number-editor": "^2.1.0"
   },
   "devDependencies": {
     "chai": "^3.0.0",
