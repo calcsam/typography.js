@@ -6,31 +6,23 @@ isArray = require 'is-array'
 
 module.exports = (options) ->
   defaults =
-    baseFontSize: '16px'
-    baseLineHeight: '24px'
+    baseFontSize: '18px'
+    baseLineHeight: '28.5px'
     modularScales: [
       'diminished fourth'
+      ['768px', 'minor third']
     ]
-    googleFonts: [
-      {
-        name: "Lato"
-        styles: [
-          "100"
-          "400"
-          "700"
-          "900"
-        ]
-      },
-    ]
-    headerFontFamily: "Lato, sans-serif"
-    bodyFontFamily: "Lato, sans-serif"
+    googleFonts: []
+    headerFontFamily: '"Avenir Next", "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif'
+    bodyFontFamily: 'georgia, serif'
     headerGray: 20
     headerGrayHue: 0
-    bodyGray: 40
+    bodyGray: 20
     bodyGrayHue: 0
-    headerWeight: 400
+    headerWeight: 700
     bodyWeight: 400
     boldWeight: 700
+    fontFaces: []
 
   options = objectAssign defaults, options
 
