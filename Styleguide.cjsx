@@ -15,9 +15,9 @@ module.exports = React.createClass
       <div />
     else
       <div>
-        <h1 style={{marginBottom: 0}}>Typography.js</h1>
+        <h1 style={{marginBottom: @state.typography.rhythm(1/2)}}>Typography.js</h1>
 
-        <h3 style={{color: gray(60)}}>An opinionated toolkit for building websites with beautiful typography.</h3>
+        <h5>An opinionated toolkit for building websites with beautiful typography.</h5>
 
         <a style={{color: '#2196F3'}} href="https://github.com/KyleAMathews/typography.js">Code on Github</a>
         <br />
@@ -59,6 +59,11 @@ module.exports = React.createClass
           <li>List Item 1</li>
           <li>List Item 2</li>
           <li>List Item 3</li>
+          <ol>
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+          </ol>
         </ol>
 
         <h3>Unordered List</h3>
@@ -66,6 +71,11 @@ module.exports = React.createClass
           <li>List Item 1</li>
           <li>List Item 2</li>
           <li>List Item 3</li>
+          <ul>
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+          </ul>
         </ul>
 
         <hr />
